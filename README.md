@@ -12,13 +12,13 @@ Banks:
  1. ICICI bank statements
  
 Functions:
- printTxnLines
- findINFT
- findOtherBankATMWithdrawals
- findDebitCardTransactionsVPSIPS
+ printTxnLines,
+ findINFT,
+ findOtherBankATMWithdrawals,
+ findDebitCardTransactionsVPSIPS,
  findGeneric
  
 Most useful:
- printForOneMonthYear
+ printForOneMonthYear,
  printForMonthYearRange
  
