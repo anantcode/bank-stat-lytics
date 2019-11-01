@@ -8,7 +8,7 @@ This was a quick personal project so no LTS as of now
 As of now it supports:
 
 Bank Statement Type:
- 1. Excel file(xlsx, xls) - uses ApachePOI)
+ 1. Excel file(xlsx, xls) - uses ApachePOI
  
 Banks:
  1. ICICI bank statements
