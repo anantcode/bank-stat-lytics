@@ -1,26 +1,23 @@
 # bank-stat-lytics
 Bank Statement Analyzer
 
-This project is meant to read bank statements and provides some useful analytics on the cashflow(debit and credit that happened in your account)
-This was a quick personal project so no LTS as of now
+Bank statements crawler. Extract insights on the cashflow (basics like debit and credit, text search).
+Personal.
+No LTS as of now.
 
-
-As of now it supports:
-
+Supports:
 Bank Statement Type:
  1. Excel file(xlsx, xls) - uses ApachePOI
  
-Banks:
- 1. ICICI bank statements
- 
-Functions:
+only ICICI supported.
+
+Features:
+ printForOneMonthYear,
+ printForMonthYearRange
  printTxnLines,
  findINFT,
  findOtherBankATMWithdrawals,
  findDebitCardTransactionsVPSIPS,
  findGeneric
  
-Most useful:
- printForOneMonthYear,
- printForMonthYearRange
- 
+  
